@@ -1,0 +1,22 @@
+{
+  "group": "portal_frames",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:heartof_first_dimension"
+    }
+  ],
+  "result": {
+    "item": "dimensions:dimension_1_igniter",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "dimensions:blocks/bluewood_planks"
+  },
+  "render_type": "solid"
+}

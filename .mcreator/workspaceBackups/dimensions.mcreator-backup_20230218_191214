@@ -1,0 +1,1718 @@
+{
+  "mod_elements": [
+    {
+      "name": "LushtDust",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_dust",
+      "path": "~/Materials"
+    },
+    {
+      "name": "LushtOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_ore",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LushtBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LushtOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_ore_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_block_ore_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_ore_smelting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_hoe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "LushtArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_armor_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_armor_body_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_armor_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LushtArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_armor_boots_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DimensionsOres",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensions_ores",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "RandomOres",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_ores",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "RandomLootOres",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_ores",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LushtTrade",
+      "type": "villagertrade",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusht_trade",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "TraductionProgress",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traduction_progress",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TranslationProgress",
+      "type": "keybind",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translation_progress",
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MoukiWood",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_wood",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiLog",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_log",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiPlanks",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_planks",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiLeaves",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_leaves",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_stairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiSlab",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiFence",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_fence",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiFenceGate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_fence_gate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiPressurePlate",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_pressure_plate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiButton",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_button",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiItemsTag",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_items_tag",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiWoodRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_wood_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiPlanksRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_planks_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiStairsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_stairs_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiSlabRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_slab_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiFenceRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_fence_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_fence_gate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_pressure_plate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiButtonRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_button_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiStickRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_stick_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiBiome",
+      "type": "biome",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_biome",
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Packed_EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Packed_EmeraldAxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Packed_EmeraldSword",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Packed_EmeraldShovel",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Packed_EmeraldHoe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Packed_EmeraldPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Packed_EmeraldAxeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Packed_EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Packed_EmeraldShovelRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Packed_EmeraldHoeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_emerald_hoe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Grass1",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlastedBiome",
+      "type": "biome",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blasted_biome",
+      "path": "~/Biomes"
+    },
+    {
+      "name": "DimensionsTools",
+      "type": "tab",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensions_tools",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "DimensionsMaterials",
+      "type": "tab",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensions_materials",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "MoukiIngot",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "MoukiOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_ore",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiBlock",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MoukiOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_ore_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_block_ore_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiOreSmelting",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_ore_smelting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiPickaxe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiAxe",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiSword",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiShovel",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiHoe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiAxeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiSwordRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiShovelRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiHoeRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_hoe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiArmor",
+      "type": "armor",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "MoukiArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_armor_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_armor_body_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_armor_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MoukiArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_armor_boots_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmerarmorArmor",
+      "type": "armor",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerarmor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EmerarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerarmor_armor_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmerarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerarmor_armor_body_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmerarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerarmor_armor_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EmerarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerarmor_armor_boots_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodWood",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_wood",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodLog",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_log",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodPlanks",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_planks",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodLeaves",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_leaves",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodStairs",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_stairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodSlab",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodFence",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_fence",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodFenceGate",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_fence_gate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodPressurePlate",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_pressure_plate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodButton",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_button",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodItemsTag",
+      "type": "tag",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_items_tag",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_wood_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_planks_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_stairs_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_slab_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_fence_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_fence_gate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_pressure_plate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_button_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BluewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewood_stick_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TeleportBlock",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Dimension1",
+      "type": "dimension",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_1",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Dimension1Igniter",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_1_igniter",
+      "path": "~/Tools"
+    },
+    {
+      "name": "TranslationCommand",
+      "type": "command",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translation_command",
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OverworldIgniter",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_igniter",
+      "path": "~/Tools"
+    },
+    {
+      "name": "TeleportBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "NetherIgniter",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_igniter",
+      "path": "~/Tools"
+    },
+    {
+      "name": "FlamewoodWood",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_wood",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodLog",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_log",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodPlanks",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_planks",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodLeaves",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_leaves",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodStairs",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_stairs",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodSlab",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodFence",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodFenceGate",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_gate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodPressurePlate",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_pressure_plate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodButton",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_button",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodItemsTag",
+      "type": "tag",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_items_tag",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FlamewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_wood_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_planks_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_stairs_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_slab_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_gate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_pressure_plate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_button_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlamewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_stick_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HeartofNether",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartof_nether",
+      "path": "~/Materials"
+    },
+    {
+      "name": "HeartofOverworld",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartof_overworld",
+      "path": "~/Materials"
+    },
+    {
+      "name": "HeartofFirstDimension",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartof_first_dimension",
+      "path": "~/Materials"
+    },
+    {
+      "name": "BrokenPortalFrame",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_portal_frame",
+      "path": "~/Materials"
+    },
+    {
+      "name": "OverworldPortalFrame",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_portal_frame",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetherPortalFrame",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_portal_frame",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FDPortalFrame",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fd_portal_frame",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Teleporter",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetherPortalFrameAch",
+      "type": "achievement",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_portal_frame_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "MoukiBiomeAch",
+      "type": "achievement",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouki_biome_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "BlastedBiomeAch",
+      "type": "achievement",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blasted_biome_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "FDEnterAch",
+      "type": "achievement",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fd_enter_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "FDPortalItem",
+      "type": "achievement",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fd_portal_item",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "FDNewPortalAch",
+      "type": "achievement",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fd_new_portal_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "NTPortalItem",
+      "type": "achievement",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nt_portal_item",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "NTNewPortalAch",
+      "type": "achievement",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nt_new_portal_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "NTEnterAch",
+      "type": "achievement",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nt_enter_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "OWPortalItem",
+      "type": "achievement",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ow_portal_item",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "OWNewPortalAch",
+      "type": "achievement",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ow_new_portal_ach",
+      "path": "~/Trades and Tabs"
+    },
+    {
+      "name": "OWEnterAch",
+      "type": "achievement",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ow_enter_ach",
+      "path": "~/Trades and Tabs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "fr_ca": {
+      "advancements.fd_portal_item.descr": "Obtiens un cœur de La Première Dimension",
+      "item.dimensions.lusht_pickaxe": "Pioche de lusht",
+      "block.dimensions.flamewood_planks": "Flamewood Planks",
+      "block.dimensions.lusht_ore": "Minerai de lusht",
+      "item.dimensions.mouki_axe": "Hache en mouki",
+      "block.dimensions.bluewood_leaves": "Bluewood Leaves",
+      "advancements.nt_new_portal_ach.descr": "Get the First Dimension Portal Frame item",
+      "item.dimensions.mouki_pickaxe": "Mouki Pickaxe",
+      "item.dimensions.lusht_sword": "Épée de lusht",
+      "advancements.nether_portal_frame_ach.descr": "Get a broken portal frame in your inventory.",
+      "block.dimensions.flamewood_log": "Flamewood Log",
+      "item.dimensions.heartof_nether": "Heart of Nether",
+      "item.dimensions.dimension_1_igniter": "Blue Dust",
+      "advancements.fd_enter_ach.descr": "Enter the First Dimension",
+      "block.dimensions.bluewood_stairs": "Bluewood Stairs",
+      "item.dimensions.packed_emerald_sword": "Épée en émeraude",
+      "block.dimensions.teleport_block": "Téléporteur Interdimensionnel",
+      "item.dimensions.broken_portal_frame": "Cadre de portail cassé",
+      "advancements.blasted_biome_ach.descr": "Entrer le biome Bizzare",
+      "item.dimensions.dimension_1": "Portail de La Première Dimension",
+      "item.dimensions.packed_emerald_shovel": "Pelle en émeraude",
+      "item.dimensions.lusht_armor_boots": "Bottes de lusht",
+      "item.dimensions.mouki_armor_chestplate": "Mouki Chestplate",
+      "block.dimensions.grass_1": "Bloc d\u0027herbe bizzare",
+      "advancements.fd_new_portal_ach.descr": "Get the First Dimension Portal Frame item",
+      "translation.key.teleportblock_alreadyinerror": "L\u0027objet donne sur la dimension sur laquelle vous y êtes actuellement",
+      "block.dimensions.flamewood_pressure_plate": "Flamewood Pressure Plate",
+      "block.dimensions.flamewood_slab": "Flamewood Slab",
+      "itemGroup.tabdimensions_materials": "(Dimensions) Matériels",
+      "block.dimensions.bluewood_fence": "Bluewood Fence",
+      "translation.key.teleportblock_noportalerror": "L\u0027objet n\u0027est pas tiré d\u0027une dimension existante dans le multivers",
+      "item.dimensions.packed_emerald_pickaxe": "Pioche en émeraude",
+      "block.dimensions.bluewood_log": "Bluewood Log",
+      "advancements.ow_new_portal_ach.title": "Faster Traveling",
+      "block.dimensions.mouki_log": "Tronc mouki",
+      "block.dimensions.mouki_wood": "Bois mouki",
+      "advancements.nt_portal_item.descr": "Get a Heart of First Dimension",
+      "advancements.ow_portal_item.descr": "Get a Heart of Nether",
+      "item.dimensions.heartof_first_dimension": "Cœur de La Première Dimension",
+      "item.dimensions.lusht_shovel": "Pelle en lusht",
+      "item.dimensions.mouki_hoe": "Mouki Hoe",
+      "advancements.nt_portal_item.title": "The Core of a New Dawn",
+      "item.dimensions.packed_emerald_hoe": "Houe en émeraude",
+      "advancements.ow_enter_ach.title": "Fast Travelers, here I come!",
+      "item.dimensions.lusht_armor_helmet": "Casque en lusht",
+      "advancements.nt_enter_ach.descr": "Enter the First Dimension",
+      "advancements.nether_portal_frame_ach.title": "Miniaturised Portal Frame?",
+      "item.dimensions.lusht_hoe": "Houe en lusht",
+      "item.dimensions.emerarmor_armor_leggings": "Emerarmor Leggings",
+      "advancements.ow_new_portal_ach.descr": "Get the Nether Portal Frame item",
+      "item.dimensions.mouki_ingot": "Lingot mouki",
+      "advancements.blasted_biome_ach.title": "La nature a été injectée",
+      "block.dimensions.bluewood_slab": "Demi-dalle boisbleu",
+      "block.dimensions.mouki_planks": "Planches mouki",
+      "block.dimensions.mouki_leaves": "Feuille de mouki",
+      "block.dimensions.flamewood_leaves": "Flamewood Leaves",
+      "block.dimensions.bluewood_planks": "Bluewood Planks",
+      "biome.dimensions.mouki_biome": "Biome mouki",
+      "block.dimensions.random_ores": "Minerai Random",
+      "advancements.fd_enter_ach.title": "Qu\u0027est-ce...?",
+      "advancements.fd_portal_item.title": "The Core of a New Dawn",
+      "block.dimensions.mouki_fence_gate": "Porte-barrière mouki",
+      "block.dimensions.lusht_block": "Bloc de lusht",
+      "block.dimensions.flamewood_wood": "Flamewood Wood",
+      "advancements.mouki_biome_ach.title": "C\u0027est... une corruption?",
+      "item.dimensions.nether_igniter": "Overworld Portal Frame",
+      "itemGroup.tabdimensions_tools": "(Dimensions) Outils",
+      "item.dimensions.packed_emerald_axe": "Hache en émeraude",
+      "biome.dimensions.blasted_biome": "Biome Bizzare",
+      "block.dimensions.bluewood_fence_gate": "Bluewood Fence Gate",
+      "advancements.nt_new_portal_ach.title": "A brand new world awaits",
+      "advancements.ow_enter_ach.descr": "Enter the Nether using the Teleporter",
+      "item.dimensions.mouki_sword": "Mouki Sword",
+      "item.dimensions.lusht_axe": "Hache en lusht",
+      "item.dimensions.mouki_armor_boots": "Bottes en mouki",
+      "advancements.ow_portal_item.title": "Cores and Hearts",
+      "block.dimensions.mouki_button": "Bouton mouki",
+      "block.dimensions.flamewood_button": "Flamewood Button",
+      "block.dimensions.mouki_fence": "Barrière mouki",
+      "item.dimensions.emerarmor_armor_boots": "Emerarmor Boots",
+      "advancements.nt_enter_ach.title": "What is that?",
+      "block.dimensions.mouki_block": "Block of Mouki",
+      "block.dimensions.flamewood_fence": "Flamewood Fence",
+      "item.dimensions.lusht_dust": "Lusht",
+      "itemGroup.tabdimensions_ores": "(Dimensions) Blocs",
+      "item.dimensions.emerarmor_armor_helmet": "Emerarmor Helmet",
+      "item.dimensions.mouki_shovel": "Mouki Shovel",
+      "block.dimensions.bluewood_button": "Bluewood Button",
+      "block.dimensions.flamewood_fence_gate": "Flamewood Fence Gate",
+      "item.dimensions.mouki_armor_helmet": "Mouki Helmet",
+      "block.dimensions.mouki_pressure_plate": "Plaque de pression mouki",
+      "advancements.fd_new_portal_ach.title": "A brand new world awaits",
+      "block.dimensions.mouki_stairs": "Escaliers mouki",
+      "block.dimensions.mouki_ore": "Mouki Ore",
+      "item.dimensions.lusht_armor_leggings": "Jambières en lusht",
+      "item.dimensions.overworld_igniter": "Overworld Portal Frame",
+      "item.dimensions.mouki_armor_leggings": "Mouki Leggings",
+      "block.dimensions.flamewood_stairs": "Flamewood Stairs",
+      "block.dimensions.bluewood_wood": "Boisbleu",
+      "key.dimensions.translation_progress": "Progression de traduction",
+      "advancements.mouki_biome_ach.descr": "Enter the Mouki Biome",
+      "item.dimensions.emerarmor_armor_chestplate": "Plastron d\u0027armure en émeraude",
+      "block.dimensions.mouki_slab": "Demi-dalle mouki",
+      "item.dimensions.lusht_armor_chestplate": "Plastron en lusht",
+      "block.dimensions.bluewood_pressure_plate": "Bluewood Pressure Plate",
+      "item.dimensions.heartof_overworld": "Cœur du Nether",
+      "translation.key.translationtext": "FR-CA (la langue du jeu actuelle) est traduite à --%"
+    },
+    "en_us": {
+      "advancements.fd_portal_item.descr": "Get a Heart of First Dimension",
+      "block.dimensions.flamewood_planks": "Flamewood Planks",
+      "item.dimensions.lusht_pickaxe": "Lusht Pickaxe",
+      "block.dimensions.lusht_ore": "Lusht Ore",
+      "item.dimensions.mouki_axe": "Mouki Axe",
+      "block.dimensions.bluewood_leaves": "Bluewood Leaves",
+      "advancements.nt_new_portal_ach.descr": "Get the Nether Portal Frame item",
+      "item.dimensions.mouki_pickaxe": "Mouki Pickaxe",
+      "item.dimensions.lusht_sword": "Lusht Sword",
+      "advancements.nether_portal_frame_ach.descr": "Get a broken portal frame in your inventory.",
+      "block.dimensions.flamewood_log": "Flamewood Log",
+      "item.dimensions.heartof_nether": "Heart of Nether",
+      "item.dimensions.dimension_1_igniter": "First Dimension Portal Frame",
+      "advancements.fd_enter_ach.descr": "Enter the First Dimension",
+      "block.dimensions.bluewood_stairs": "Bluewood Stairs",
+      "block.dimensions.teleport_block": "Teleport Block",
+      "item.dimensions.packed_emerald_sword": "Emerald Sword",
+      "item.dimensions.broken_portal_frame": "Broken Portal Frame",
+      "advancements.blasted_biome_ach.descr": "Enter the Blasted Biome",
+      "item.dimensions.dimension_1": "Dimension 1 Portal Igniter",
+      "item.dimensions.packed_emerald_shovel": "Emerald Shovel",
+      "item.dimensions.lusht_armor_boots": "Lusht Boots",
+      "item.dimensions.mouki_armor_chestplate": "Mouki Chestplate",
+      "block.dimensions.grass_1": "Blast Grass",
+      "advancements.fd_new_portal_ach.descr": "Get the First Dimension Portal Frame item",
+      "translation.key.teleportblock_alreadyinerror": "The object leads to the dimension you\u0027re presently in",
+      "block.dimensions.flamewood_pressure_plate": "Flamewood Pressure Plate",
+      "block.dimensions.flamewood_slab": "Flamewood Slab",
+      "itemGroup.tabdimensions_materials": "(Dimensions) Materials",
+      "block.dimensions.bluewood_fence": "Bluewood Fence",
+      "translation.key.teleportblock_noportalerror": "The object leads to nowhere in the multiverse",
+      "item.dimensions.packed_emerald_pickaxe": "Emerald Pickaxe",
+      "block.dimensions.bluewood_log": "Bluewood Log",
+      "advancements.ow_new_portal_ach.title": "No need to get a portal, I have one!",
+      "block.dimensions.mouki_log": "Mouki Log",
+      "block.dimensions.mouki_wood": "Mouki Wood",
+      "advancements.nt_portal_item.descr": "Get a Heart of Nether",
+      "item.dimensions.heartof_first_dimension": "Heart of First Dimension",
+      "advancements.ow_portal_item.descr": "Get a Heart of Overworld",
+      "item.dimensions.lusht_shovel": "Lusht Shovel",
+      "item.dimensions.mouki_hoe": "Mouki Hoe",
+      "advancements.nt_portal_item.title": "Cores and Hearts",
+      "item.dimensions.packed_emerald_hoe": "Emerald Hoe",
+      "advancements.ow_enter_ach.title": "Here I am, back from traveling!",
+      "item.dimensions.lusht_armor_helmet": "Lusht Helmet",
+      "advancements.nt_enter_ach.descr": "Enter the Nether using the Teleporter",
+      "advancements.nether_portal_frame_ach.title": "Miniaturised Portal Frame?",
+      "item.dimensions.emerarmor_armor_leggings": "Emerarmor Leggings",
+      "item.dimensions.lusht_hoe": "Lusht Hoe",
+      "advancements.ow_new_portal_ach.descr": "Get the Overworld Portal Frame item",
+      "item.dimensions.mouki_ingot": "Mouki",
+      "advancements.blasted_biome_ach.title": "Someone did inject the nature",
+      "block.dimensions.bluewood_slab": "Bluewood Slab",
+      "block.dimensions.mouki_planks": "Mouki Planks",
+      "block.dimensions.mouki_leaves": "Mouki Leaves",
+      "block.dimensions.flamewood_leaves": "Flamewood Leaves",
+      "block.dimensions.bluewood_planks": "Bluewood Planks",
+      "biome.dimensions.mouki_biome": "Mouki Biome",
+      "block.dimensions.random_ores": "Random Loot Ore",
+      "advancements.fd_enter_ach.title": "What is that?",
+      "advancements.fd_portal_item.title": "The Core of a New Dawn",
+      "block.dimensions.mouki_fence_gate": "Mouki Fence Gate",
+      "block.dimensions.lusht_block": "Block of Lusht",
+      "block.dimensions.flamewood_wood": "Flamewood Wood",
+      "advancements.mouki_biome_ach.title": "Is it a corruption?",
+      "item.dimensions.nether_igniter": "Nether Portal Frame",
+      "itemGroup.tabdimensions_tools": "(Dimensions) Packs",
+      "item.dimensions.packed_emerald_axe": "Emerald Axe",
+      "biome.dimensions.blasted_biome": "Blasted Biome",
+      "block.dimensions.bluewood_fence_gate": "Bluewood Fence Gate",
+      "advancements.nt_new_portal_ach.title": "Faster Traveling",
+      "advancements.ow_enter_ach.descr": "Get back to the Overworld using the Teleporter",
+      "item.dimensions.mouki_sword": "Mouki Sword",
+      "item.dimensions.lusht_axe": "Lusht Axe",
+      "item.dimensions.mouki_armor_boots": "Mouki Boots",
+      "advancements.ow_portal_item.title": "Your command, my world",
+      "block.dimensions.mouki_button": "Mouki Button",
+      "block.dimensions.flamewood_button": "Flamewood Button",
+      "block.dimensions.mouki_fence": "Mouki Fence",
+      "item.dimensions.emerarmor_armor_boots": "Emerarmor Boots",
+      "advancements.nt_enter_ach.title": "Fast Travelers, here I come!",
+      "block.dimensions.mouki_block": "Block of Mouki",
+      "block.dimensions.flamewood_fence": "Flamewood Fence",
+      "item.dimensions.lusht_dust": "Lusht",
+      "itemGroup.tabdimensions_ores": "(Dimensions) Blocks",
+      "item.dimensions.emerarmor_armor_helmet": "Emerarmor Helmet",
+      "item.dimensions.mouki_shovel": "Mouki Shovel",
+      "block.dimensions.bluewood_button": "Bluewood Button",
+      "block.dimensions.flamewood_fence_gate": "Flamewood Fence Gate",
+      "item.dimensions.mouki_armor_helmet": "Mouki Helmet",
+      "block.dimensions.mouki_pressure_plate": "Mouki Pressure Plate",
+      "advancements.fd_new_portal_ach.title": "A brand new world awaits",
+      "block.dimensions.mouki_stairs": "Mouki Stairs",
+      "block.dimensions.mouki_ore": "Mouki Ore",
+      "item.dimensions.lusht_armor_leggings": "Lusht Leggings",
+      "item.dimensions.overworld_igniter": "Overworld Portal Frame",
+      "item.dimensions.mouki_armor_leggings": "Mouki Leggings",
+      "block.dimensions.flamewood_stairs": "Flamewood Stairs",
+      "block.dimensions.bluewood_wood": "Bluewood Wood",
+      "key.dimensions.translation_progress": "Translation Progress",
+      "advancements.mouki_biome_ach.descr": "Enter the Mouki Biome",
+      "item.dimensions.emerarmor_armor_chestplate": "Emerarmor Chestplate",
+      "block.dimensions.mouki_slab": "Mouki Slab",
+      "item.dimensions.lusht_armor_chestplate": "Lusht Chestplate",
+      "block.dimensions.bluewood_pressure_plate": "Bluewood Pressure Plate",
+      "item.dimensions.heartof_overworld": "Heart of Nether",
+      "translation.key.translationtext": "EN-US (your actual language) was the original state of the mod."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Trades and Tabs",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dimensions",
+    "modName": "Dimensions",
+    "version": "2023.02.13a",
+    "description": "Adds brand new dimensions and blocks to Minecraft",
+    "author": "EleckFan5935",
+    "websiteURL": "https://mcreator.net",
+    "license": "Public Domain",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.dimensions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

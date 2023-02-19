@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "dimensions:blocks/bluewood_planks",
+    "particle": "dimensions:blocks/bluewood_planks"
+  },
+  "render_type": "solid"
+}

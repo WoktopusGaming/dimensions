@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:lusht_dust"
+    },
+    "1": {
+      "item": "dimensions:lusht_dust"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dimensions:lusht_sword",
+    "count": 1
+  }
+}

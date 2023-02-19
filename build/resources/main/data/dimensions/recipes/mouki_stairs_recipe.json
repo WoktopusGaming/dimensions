@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:mouki_planks"
+    },
+    "3": {
+      "item": "dimensions:mouki_planks"
+    },
+    "4": {
+      "item": "dimensions:mouki_planks"
+    },
+    "6": {
+      "item": "dimensions:mouki_planks"
+    },
+    "7": {
+      "item": "dimensions:mouki_planks"
+    },
+    "8": {
+      "item": "dimensions:mouki_planks"
+    }
+  },
+  "result": {
+    "item": "dimensions:mouki_stairs",
+    "count": 4
+  }
+}

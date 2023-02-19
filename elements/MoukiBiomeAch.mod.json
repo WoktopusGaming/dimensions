@@ -1,0 +1,37 @@
+{
+  "_fv": 34,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Is it a corruption?",
+    "achievementDescription": "Enter the Mouki Biome",
+    "achievementIcon": {
+      "value": "Blocks.WARPED_NYLIUM"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "RandomOres"
+    ],
+    "rewardRecipes": [
+      "BluewoodWoodRecipe",
+      "BluewoodPlanksRecipe",
+      "BluewoodStairsRecipe",
+      "BluewoodSlabRecipe",
+      "BluewoodFenceRecipe",
+      "BluewoodFenceGateRecipe",
+      "BluewoodPressurePlateRecipe",
+      "BluewoodButtonRecipe",
+      "BluewoodStickRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 20,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:NetherPortalFrameAch"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"40\" y=\"46\"><field name=\"biome\">CUSTOM:MoukiBiome</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

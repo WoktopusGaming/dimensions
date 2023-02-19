@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "dimensions:heartof_overworld"
+    },
+    "title": {
+      "translate": "advancements.ow_portal_item.title"
+    },
+    "description": {
+      "translate": "advancements.ow_portal_item.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ow_portal_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dimensions:heartof_overworld"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "dimensions:overworld_portal_frame"
+    ]
+  },
+  "parent": "dimensions:nether_portal_frame_ach"
+}

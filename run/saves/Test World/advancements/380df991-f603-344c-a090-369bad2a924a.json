@@ -1,0 +1,59 @@
+{
+  "dimensions:fd_new_portal_ach": {
+    "criteria": {
+      "fd_new_portal_ach": "2023-02-18 18:23:25 -0500"
+    },
+    "done": true
+  },
+  "dimensions:ow_portal_item": {
+    "criteria": {
+      "ow_portal_item": "2023-02-18 18:23:35 -0500"
+    },
+    "done": true
+  },
+  "dimensions:fd_portal_item": {
+    "criteria": {
+      "fd_portal_item": "2023-02-18 18:23:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-02-18 18:28:37 -0500"
+    },
+    "done": true
+  },
+  "dimensions:nt_portal_item": {
+    "criteria": {
+      "nt_portal_item": "2023-02-18 18:23:37 -0500"
+    },
+    "done": true
+  },
+  "dimensions:nt_new_portal_ach": {
+    "criteria": {
+      "nt_new_portal_ach": "2023-02-18 18:23:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2023-02-18 18:24:05 -0500",
+      "minecraft:river": "2023-02-18 18:24:01 -0500",
+      "minecraft:forest": "2023-02-18 18:22:35 -0500"
+    },
+    "done": false
+  },
+  "dimensions:nether_portal_frame_ach": {
+    "criteria": {
+      "nether_portal_frame_ach": "2023-02-18 18:23:39 -0500"
+    },
+    "done": true
+  },
+  "dimensions:ow_new_portal_ach": {
+    "criteria": {
+      "ow_new_portal_ach": "2023-02-18 18:23:22 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

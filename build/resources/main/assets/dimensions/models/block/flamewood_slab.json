@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dimensions:blocks/flamewood_planks",
+    "top": "dimensions:blocks/flamewood_planks",
+    "side": "dimensions:blocks/flamewood_planks"
+  },
+  "render_type": "solid"
+}

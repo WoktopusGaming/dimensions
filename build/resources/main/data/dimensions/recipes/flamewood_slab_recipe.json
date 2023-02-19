@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:flamewood_planks"
+    },
+    "1": {
+      "item": "dimensions:flamewood_planks"
+    },
+    "2": {
+      "item": "dimensions:flamewood_planks"
+    }
+  },
+  "result": {
+    "item": "dimensions:flamewood_slab",
+    "count": 6
+  }
+}

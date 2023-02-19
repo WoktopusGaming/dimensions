@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimensions:blocks/mouki_log_top",
+    "up": "dimensions:blocks/mouki_log_top",
+    "north": "dimensions:blocks/mouki_log_side",
+    "east": "dimensions:blocks/mouki_log_side",
+    "south": "dimensions:blocks/mouki_log_side",
+    "west": "dimensions:blocks/mouki_log_side",
+    "particle": "dimensions:blocks/mouki_log_top"
+  },
+  "render_type": "solid"
+}

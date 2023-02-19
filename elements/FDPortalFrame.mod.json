@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "portal_frames",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HeartofFirstDimension"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dimension1Igniter"
+    },
+    "name": "fd_portal_frame",
+    "namespace": "mod"
+  }
+}

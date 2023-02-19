@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimensions:mouki_planks"
+    }
+  ],
+  "result": {
+    "item": "dimensions:mouki_button",
+    "count": 1
+  }
+}

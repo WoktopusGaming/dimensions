@@ -1,0 +1,25 @@
+{
+  "_fv": 34,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "What is that?",
+    "achievementDescription": "Enter the First Dimension",
+    "achievementIcon": {
+      "value": "CUSTOM:Dimension1Igniter"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 30,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FDNewPortalAch"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"58\" y=\"55\"><field name=\"dimension\">CUSTOM:Dimension1</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

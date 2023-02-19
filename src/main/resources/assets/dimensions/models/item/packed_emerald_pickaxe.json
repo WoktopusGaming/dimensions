@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dimensions:items/packed_emerald_pickaxe"
+  }
+}

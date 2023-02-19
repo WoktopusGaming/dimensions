@@ -1,0 +1,22 @@
+{
+  "group": "portal_frames",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:broken_portal_frame"
+    },
+    {
+      "item": "dimensions:heartof_overworld"
+    }
+  ],
+  "result": {
+    "item": "dimensions:overworld_igniter",
+    "count": 1
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "_fv": 34,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "CUSTOM:LushtDust"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:LushtSword"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.2
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "CUSTOM:LushtDust"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:LushtPickaxe"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 6,
+            "xp": 25,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": "CUSTOM:LushtDust"
+            },
+            "countPrice2": 6,
+            "offer": {
+              "value": "CUSTOM:LushtAxe"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 6,
+            "xp": 15,
+            "priceMultiplier": 0.5
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "CUSTOM:LushtDust"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:LushtShovel"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 6,
+            "xp": 15,
+            "priceMultiplier": 0.6
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "CUSTOM:LushtDust"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:LushtHoe"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": "CUSTOM:RandomLootOres"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LushtArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 15,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "CUSTOM:RandomLootOres"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:LushtArmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 15,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 14,
+            "price2": {
+              "value": "CUSTOM:RandomLootOres"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:LushtArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "CUSTOM:RandomLootOres"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:LushtArmor.boots"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 5,
+            "xp": 15,
+            "priceMultiplier": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

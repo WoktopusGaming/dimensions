@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "portal_frames",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HeartofOverworld"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OverworldIgniter"
+    },
+    "name": "overworld_portal_frame",
+    "namespace": "mod"
+  }
+}

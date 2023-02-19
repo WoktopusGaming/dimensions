@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      },
+      {
+        "value": "CUSTOM:LushtDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LushtBlock"
+    },
+    "name": "lusht_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "advancements.mouki_biome_ach.title"
+    },
+    "description": {
+      "translate": "advancements.mouki_biome_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mouki_biome_ach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "dimensions:mouki_biome"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "loot": [
+      "dimensions:blocks/random_ores"
+    ],
+    "recipes": [
+      "dimensions:bluewood_wood_recipe",
+      "dimensions:bluewood_planks_recipe",
+      "dimensions:bluewood_stairs_recipe",
+      "dimensions:bluewood_slab_recipe",
+      "dimensions:bluewood_fence_recipe",
+      "dimensions:bluewood_fence_gate_recipe",
+      "dimensions:bluewood_pressure_plate_recipe",
+      "dimensions:bluewood_button_recipe",
+      "dimensions:bluewood_stick_recipe"
+    ]
+  },
+  "parent": "dimensions:nether_portal_frame_ach"
+}

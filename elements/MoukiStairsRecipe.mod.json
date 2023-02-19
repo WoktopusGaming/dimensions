@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      },
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      },
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      },
+      {
+        "value": "CUSTOM:MoukiPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoukiStairs"
+    },
+    "name": "mouki_stairs_recipe",
+    "namespace": "mod"
+  }
+}

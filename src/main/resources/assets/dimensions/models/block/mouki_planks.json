@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimensions:blocks/mouki_planks",
+    "particle": "dimensions:blocks/mouki_planks"
+  },
+  "render_type": "solid"
+}

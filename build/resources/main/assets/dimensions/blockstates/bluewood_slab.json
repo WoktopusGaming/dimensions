@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimensions:block/bluewood_slab"
+    },
+    "type=top": {
+      "model": "dimensions:block/bluewood_slab_top"
+    },
+    "type=double": {
+      "model": "dimensions:block/bluewood_slab_full"
+    }
+  }
+}

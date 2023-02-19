@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dimensions:mouki_biome",
+    "dimensions:blasted_biome"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 34,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Someone did inject the nature",
+    "achievementDescription": "Enter the Blasted Biome",
+    "achievementIcon": {
+      "value": "CUSTOM:Grass1"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "MoukiWoodRecipe",
+      "MoukiPlanksRecipe",
+      "MoukiStairsRecipe",
+      "MoukiSlabRecipe",
+      "MoukiFenceRecipe",
+      "MoukiFenceGateRecipe",
+      "MoukiPressurePlateRecipe",
+      "MoukiButtonRecipe",
+      "MoukiStickRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 20,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:NetherPortalFrameAch"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"110\" y=\"213\"><field name=\"biome\">CUSTOM:BlastedBiome</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

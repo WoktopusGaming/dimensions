@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "multipack_mod:bluewood_log"
+    },
+    "1": {
+      "item": "multipack_mod:bluewood_log"
+    },
+    "2": {
+      "item": "multipack_mod:bluewood_log"
+    },
+    "3": {
+      "item": "multipack_mod:bluewood_log"
+    }
+  },
+  "result": {
+    "item": "multipack_mod:bluewood_wood",
+    "count": 3
+  }
+}

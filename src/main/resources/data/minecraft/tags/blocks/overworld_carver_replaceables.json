@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dimensions:grass_1",
+    "minecraft:warped_nylium",
+    "minecraft:rooted_dirt",
+    "minecraft:coarse_dirt"
+  ]
+}

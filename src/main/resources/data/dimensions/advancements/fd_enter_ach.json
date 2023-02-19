@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "dimensions:dimension_1_igniter"
+    },
+    "title": {
+      "translate": "advancements.fd_enter_ach.title"
+    },
+    "description": {
+      "translate": "advancements.fd_enter_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fd_enter_ach": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dimensions:dimension_1"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "dimensions:fd_new_portal_ach"
+}

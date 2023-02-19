@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensions:lusht_dust"
+    },
+    "1": {
+      "item": "dimensions:lusht_dust"
+    },
+    "2": {
+      "item": "dimensions:lusht_dust"
+    },
+    "3": {
+      "item": "dimensions:lusht_dust"
+    },
+    "5": {
+      "item": "dimensions:lusht_dust"
+    },
+    "6": {
+      "item": "dimensions:lusht_dust"
+    },
+    "8": {
+      "item": "dimensions:lusht_dust"
+    }
+  },
+  "result": {
+    "item": "dimensions:lusht_armor_leggings",
+    "count": 1
+  }
+}

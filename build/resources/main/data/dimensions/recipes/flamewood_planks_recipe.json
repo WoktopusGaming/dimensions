@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:flamewood_log"
+    }
+  ],
+  "result": {
+    "item": "dimensions:flamewood_planks",
+    "count": 4
+  }
+}

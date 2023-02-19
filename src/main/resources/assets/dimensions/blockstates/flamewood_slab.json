@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimensions:block/flamewood_slab"
+    },
+    "type=top": {
+      "model": "dimensions:block/flamewood_slab_top"
+    },
+    "type=double": {
+      "model": "dimensions:block/flamewood_slab_full"
+    }
+  }
+}

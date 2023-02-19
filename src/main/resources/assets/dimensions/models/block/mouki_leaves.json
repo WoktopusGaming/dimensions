@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimensions:blocks/mouki_leaves",
+    "particle": "dimensions:blocks/mouki_leaves"
+  }
+}

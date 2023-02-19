@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dimensions:blocks/mouki_planks",
+    "top": "dimensions:blocks/mouki_planks",
+    "side": "dimensions:blocks/mouki_planks"
+  },
+  "render_type": "solid"
+}

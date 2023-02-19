@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimensions:blocks/flamewood_log_side",
+    "particle": "dimensions:blocks/flamewood_log_side"
+  },
+  "render_type": "solid"
+}
