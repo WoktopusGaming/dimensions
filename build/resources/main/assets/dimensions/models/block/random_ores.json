@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dimensions:blocks/block_randomore",
-    "particle": "dimensions:blocks/block_randomore"
-  },
-  "render_type": "solid"
-}

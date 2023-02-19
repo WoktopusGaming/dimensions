@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall_open",
-  "textures": {
-    "texture": "dimensions:blocks/bluewood_planks"
-  },
-  "render_type": "solid"
-}

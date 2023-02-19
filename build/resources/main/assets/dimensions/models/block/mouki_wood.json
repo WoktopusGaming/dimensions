@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dimensions:blocks/mouki_log_side",
-    "particle": "dimensions:blocks/mouki_log_side"
-  },
-  "render_type": "solid"
-}

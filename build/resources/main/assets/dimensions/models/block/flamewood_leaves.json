@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dimensions:blocks/flamewood_leaves",
-    "particle": "dimensions:blocks/flamewood_leaves"
-  }
-}

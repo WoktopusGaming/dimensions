@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "dimensions:blocks/bluewood_planks",
-    "top": "dimensions:blocks/bluewood_planks",
-    "side": "dimensions:blocks/bluewood_planks"
-  },
-  "render_type": "solid"
-}

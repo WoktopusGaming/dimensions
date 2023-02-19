@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "dimensions:items/portalblock_inhand"
-  },
-  "render_type": "translucent"
-}

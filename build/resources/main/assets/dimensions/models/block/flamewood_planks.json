@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dimensions:blocks/flamewood_planks",
-    "particle": "dimensions:blocks/flamewood_planks"
-  },
-  "render_type": "solid"
-}
