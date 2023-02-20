@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "dimensions:bluewood_fence",
+    "minecraft:oak_fence",
+    "dimensions:bluewood_fence_gate",
+    "minecraft:birch_fence_gate",
+    "minecraft:acacia_fence",
+    "minecraft:birch_fence",
+    "minecraft:dark_oak_fence",
+    "minecraft:dark_oak_fence_gate",
+    "dimensions:mouki_fence",
+    "minecraft:crimson_fence",
+    "dimensions:flamewood_fence",
+    "minecraft:spruce_fence",
+    "minecraft:acacia_fence_gate",
+    "minecraft:warped_fence",
+    "minecraft:oak_fence_gate",
+    "minecraft:spruce_fence_gate",
+    "minecraft:jungle_fence_gate",
+    "minecraft:crimson_fence_gate",
+    "minecraft:mangrove_fence",
+    "dimensions:flamewood_fence_gate",
+    "minecraft:mangrove_fence_gate",
+    "minecraft:jungle_fence",
+    "minecraft:warped_fence_gate",
+    "dimensions:mouki_fence_gate"
+  ]
+}

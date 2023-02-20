@@ -1,0 +1,90 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MoukiFence"
+      },
+      {
+        "value": "CUSTOM:MoukiFenceGate"
+      },
+      {
+        "value": "CUSTOM:BluewoodFence"
+      },
+      {
+        "value": "CUSTOM:BluewoodFenceGate"
+      },
+      {
+        "value": "CUSTOM:FlamewoodFence"
+      },
+      {
+        "value": "CUSTOM:FlamewoodFenceGate"
+      },
+      {
+        "value": "Blocks.OAK_FENCE"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE"
+      },
+      {
+        "value": "Blocks.BIRCH_FENCE"
+      },
+      {
+        "value": "Blocks.JUNGLE_FENCE"
+      },
+      {
+        "value": "Blocks.ACACIA_FENCE"
+      },
+      {
+        "value": "Blocks.DARK_OAK_FENCE"
+      },
+      {
+        "value": "Blocks.CRIMSON_FENCE"
+      },
+      {
+        "value": "Blocks.WARPED_FENCE"
+      },
+      {
+        "value": "Blocks.MANGROVE_FENCE"
+      },
+      {
+        "value": "Blocks.OAK_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.BIRCH_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.JUNGLE_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.ACACIA_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.DARK_OAK_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.CRIMSON_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.WARPED_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.MANGROVE_FENCE_GATE"
+      },
+      {
+        "value": "Blocks.NETHER_BRICK_FENCE"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}
