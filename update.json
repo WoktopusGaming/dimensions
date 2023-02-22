@@ -1,14 +1,13 @@
 {
   "homepage": "https://mcreator.net",
- // "<mcversion>": {
-   // "<modversion>": "<changelog for this version>", 
+    "<mcversion>": {
+       "2023.1.0": "Beta for Dimensions v2023.1", 
     // List all versions of your mod for the given Minecraft version, along with their changelogs
   },
   "promos": {
-    "1.19.2-latest": "2023.1.0a",
+    "1.19.2-latest": "2023.1.0",
     // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
-    "1.19.2-recommended": "2023.1.0a",
+    "1.19.2-recommended": "2023.1.0",
     // Declare the latest "stable" version of your mod for the given Minecraft version
-    ...
   }
 }
