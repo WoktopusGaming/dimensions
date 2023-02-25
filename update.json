@@ -1,13 +1,13 @@
 {
   "homepage": "https://mcreator.net",
     "<mcversion>": {
-       "2023.1.0": "Beta for Dimensions v2023.1", 
+       "43.2023.1": "FG 1.19.2 (v43) mod, version 2023.1\nOriginal version that started the mod.",	   
     // List all versions of your mod for the given Minecraft version, along with their changelogs
   },
   "promos": {
-    "1.19.2-latest": "2023.1.0",
+    "1.19.2-latest": "43.2023.1",
     // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
-    "1.19.2-recommended": "2023.1.0",
+    "1.19.2-recommended": "43.2023.1",
     // Declare the latest "stable" version of your mod for the given Minecraft version
   }
 }

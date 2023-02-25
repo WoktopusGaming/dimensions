@@ -4,10 +4,11 @@ license="Public Domain"
 
 [[mods]]
 modId="dimensions"
-version="2023.1.0"
+version="43.2023.1"
 displayName="Dimensions"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="EleckFan5935, Minecraft Forge and MCreator Mod Maker made or helped making this open-source mod."
 displayURL="https://mcreator.net"
+updateJSONURL="raw.githubusercontent.com/WoktopusGaming/dimensions/main/update.json"
 authors="EleckFan5935"
 description='''
 Adds brand new dimensions and blocks to Minecraft
