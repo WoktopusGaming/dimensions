@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "portal_frames",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:BrokenPortalFrame"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:RandomLootOres"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:TeleportBlock"
+    },
+    "name": "teleporter_smithing",
+    "namespace": "mod"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "homepage": "https://mcreator.net",
     "<mcversion>": {
-       "43.2023.1": "FG 1.19.2 (v43) mod, version 2023.1\nOriginal version that started the mod.",	   
+       "43.2023.1.0": "FG 1.19.2 (v43) mod, version 2023.1\nOriginal version that started the mod.",	   
     // List all versions of your mod for the given Minecraft version, along with their changelogs
   },
   "promos": {
-    "1.19.2-latest": "43.2023.1",
+    "1.19.2-latest": "43.2023.1.0",
     // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
-    "1.19.2-recommended": "43.2023.1",
+    "1.19.2-recommended": "43.2023.1.0",
     // Declare the latest "stable" version of your mod for the given Minecraft version
   }
 }

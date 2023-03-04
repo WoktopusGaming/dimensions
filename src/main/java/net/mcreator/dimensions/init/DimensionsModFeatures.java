@@ -15,6 +15,7 @@ import net.mcreator.dimensions.world.features.ores.RandomLootOresFeature;
 import net.mcreator.dimensions.world.features.ores.MoukiOreFeature;
 import net.mcreator.dimensions.world.features.ores.LushtOreFeature;
 import net.mcreator.dimensions.world.features.ores.Grass1Feature;
+import net.mcreator.dimensions.world.features.TeleporterSpawnStructureFeature;
 import net.mcreator.dimensions.DimensionsMod;
 
 @Mod.EventBusSubscriber
@@ -24,4 +25,6 @@ public class DimensionsModFeatures {
 	public static final RegistryObject<Feature<?>> RANDOM_ORES = REGISTRY.register("random_ores", RandomLootOresFeature::feature);
 	public static final RegistryObject<Feature<?>> GRASS_1 = REGISTRY.register("grass_1", Grass1Feature::feature);
 	public static final RegistryObject<Feature<?>> MOUKI_ORE = REGISTRY.register("mouki_ore", MoukiOreFeature::feature);
+	public static final RegistryObject<Feature<?>> TELEPORTER_SPAWN_STRUCTURE = REGISTRY.register("teleporter_spawn_structure",
+			TeleporterSpawnStructureFeature::feature);
 }

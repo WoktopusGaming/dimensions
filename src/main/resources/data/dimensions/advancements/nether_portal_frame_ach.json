@@ -34,9 +34,10 @@
     }
   },
   "rewards": {
-    "experience": 20,
+    "experience": 30,
     "recipes": [
-      "dimensions:teleporter"
+      "dimensions:teleporter",
+      "dimensions:teleporter_smithing"
     ]
   }
 }

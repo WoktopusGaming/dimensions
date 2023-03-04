@@ -10,22 +10,22 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.REDSTONE_WIRE"
-      },
-      {
-        "value": "Blocks.LOG"
-      },
-      {
         "value": "CUSTOM:Grass1"
       },
       {
-        "value": "Blocks.CANDLE"
+        "value": "CUSTOM:MoukiOre"
       },
       {
-        "value": "CUSTOM:RandomLootOres"
+        "value": ""
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:LushtOre"
+      },
+      {
+        "value": "CUSTOM:BrokenPortalFrame"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""

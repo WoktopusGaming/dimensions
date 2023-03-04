@@ -14,10 +14,11 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
-      "Teleporter"
+      "Teleporter",
+      "TeleporterSmithing"
     ],
     "rewardFunction": "No function",
-    "rewardXP": 20,
+    "rewardXP": 30,
     "achievementType": "task",
     "parent": {
       "value": "No parent: root"

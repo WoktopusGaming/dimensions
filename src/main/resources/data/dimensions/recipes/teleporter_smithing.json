@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "dimensions:broken_portal_frame"
+  },
+  "addition": {
+    "item": "dimensions:random_ores"
+  },
+  "result": {
+    "item": "dimensions:teleport_block"
+  }
+}

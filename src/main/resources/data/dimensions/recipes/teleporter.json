@@ -3,22 +3,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:redstone_wire"
-    },
-    {
-      "item": "minecraft:oak_log"
-    },
-    {
       "item": "dimensions:grass_1"
     },
     {
-      "tag": "minecraft:candles"
+      "item": "dimensions:mouki_ore"
     },
     {
-      "item": "dimensions:random_ores"
+      "item": "dimensions:lusht_ore"
     },
     {
-      "tag": "minecraft:wool"
+      "item": "dimensions:broken_portal_frame"
     }
   ],
   "result": {
