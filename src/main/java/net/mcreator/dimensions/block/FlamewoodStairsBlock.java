@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class FlamewoodStairsBlock extends StairBlock {
 	public FlamewoodStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).dynamicShape());
 	}
 
 	@Override

@@ -34,10 +34,9 @@ public class Grass1Feature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new Grass1Feature();
 		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:grass_1", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.GRASS_BLOCK.defaultBlockState()),
-						DimensionsModBlocks.GRASS_1.get().defaultBlockState())), 16));
-		PLACED_FEATURE = PlacementUtils.register("dimensions:grass_1", CONFIGURED_FEATURE, List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.GRASS_BLOCK.defaultBlockState()), DimensionsModBlocks.GRASS_1.get().defaultBlockState())), 16));
+		PLACED_FEATURE = PlacementUtils.register("dimensions:grass_1", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

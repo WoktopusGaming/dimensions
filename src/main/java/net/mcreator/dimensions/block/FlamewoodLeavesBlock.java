@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class FlamewoodLeavesBlock extends LeavesBlock {
 	public FlamewoodLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.6000000000000001f).noOcclusion());
+		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.6f).noOcclusion());
 	}
 
 	@Override

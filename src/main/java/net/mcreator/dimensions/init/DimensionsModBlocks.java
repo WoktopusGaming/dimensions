@@ -75,8 +75,7 @@ public class DimensionsModBlocks {
 	public static final RegistryObject<Block> BLUEWOOD_SLAB = REGISTRY.register("bluewood_slab", () -> new BluewoodSlabBlock());
 	public static final RegistryObject<Block> BLUEWOOD_FENCE = REGISTRY.register("bluewood_fence", () -> new BluewoodFenceBlock());
 	public static final RegistryObject<Block> BLUEWOOD_FENCE_GATE = REGISTRY.register("bluewood_fence_gate", () -> new BluewoodFenceGateBlock());
-	public static final RegistryObject<Block> BLUEWOOD_PRESSURE_PLATE = REGISTRY.register("bluewood_pressure_plate",
-			() -> new BluewoodPressurePlateBlock());
+	public static final RegistryObject<Block> BLUEWOOD_PRESSURE_PLATE = REGISTRY.register("bluewood_pressure_plate", () -> new BluewoodPressurePlateBlock());
 	public static final RegistryObject<Block> BLUEWOOD_BUTTON = REGISTRY.register("bluewood_button", () -> new BluewoodButtonBlock());
 	public static final RegistryObject<Block> TELEPORT_BLOCK = REGISTRY.register("teleport_block", () -> new TeleportBlockBlock());
 	public static final RegistryObject<Block> FLAMEWOOD_WOOD = REGISTRY.register("flamewood_wood", () -> new FlamewoodWoodBlock());
@@ -87,7 +86,6 @@ public class DimensionsModBlocks {
 	public static final RegistryObject<Block> FLAMEWOOD_SLAB = REGISTRY.register("flamewood_slab", () -> new FlamewoodSlabBlock());
 	public static final RegistryObject<Block> FLAMEWOOD_FENCE = REGISTRY.register("flamewood_fence", () -> new FlamewoodFenceBlock());
 	public static final RegistryObject<Block> FLAMEWOOD_FENCE_GATE = REGISTRY.register("flamewood_fence_gate", () -> new FlamewoodFenceGateBlock());
-	public static final RegistryObject<Block> FLAMEWOOD_PRESSURE_PLATE = REGISTRY.register("flamewood_pressure_plate",
-			() -> new FlamewoodPressurePlateBlock());
+	public static final RegistryObject<Block> FLAMEWOOD_PRESSURE_PLATE = REGISTRY.register("flamewood_pressure_plate", () -> new FlamewoodPressurePlateBlock());
 	public static final RegistryObject<Block> FLAMEWOOD_BUTTON = REGISTRY.register("flamewood_button", () -> new FlamewoodButtonBlock());
 }

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "experience": 0.5599999999999999,
+  "experience": 0.56,
   "cookingtime": 200,
   "ingredient": {
     "item": "dimensions:mouki_ore"

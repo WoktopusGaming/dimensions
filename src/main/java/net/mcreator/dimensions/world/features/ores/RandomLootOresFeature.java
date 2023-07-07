@@ -33,11 +33,13 @@ public class RandomLootOresFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new RandomLootOresFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:random_ores", FEATURE, new OreConfiguration(List.of(OreConfiguration
-				.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), DimensionsModBlocks.RANDOM_ORES.get().defaultBlockState())), 6));
+		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:random_ores", FEATURE,
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), DimensionsModBlocks.RANDOM_ORES.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), DimensionsModBlocks.RANDOM_ORES.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), DimensionsModBlocks.RANDOM_ORES.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), DimensionsModBlocks.RANDOM_ORES.get().defaultBlockState())), 6));
 		PLACED_FEATURE = PlacementUtils.register("dimensions:random_ores", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(95)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(95)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

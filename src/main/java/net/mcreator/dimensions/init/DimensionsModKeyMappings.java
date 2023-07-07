@@ -20,8 +20,7 @@ import net.mcreator.dimensions.DimensionsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class DimensionsModKeyMappings {
-	public static final KeyMapping TRANSLATION_PROGRESS = new KeyMapping("key.dimensions.translation_progress", GLFW.GLFW_KEY_Y,
-			"key.categories.misc") {
+	public static final KeyMapping TRANSLATION_PROGRESS = new KeyMapping("key.dimensions.translation_progress", GLFW.GLFW_KEY_Y, "key.categories.misc") {
 		private boolean isDownOld = false;
 
 		@Override

@@ -5,14 +5,14 @@
   ],
   "key": {
     "0": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "1": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     }
   },
   "result": {
-    "item": "multipack_mod:bluewood_pressure_plate",
+    "item": "dimensions:bluewood_pressure_plate",
     "count": 1
   }
 }

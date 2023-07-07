@@ -33,11 +33,13 @@ public class MoukiOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new MoukiOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:mouki_ore", FEATURE, new OreConfiguration(List.of(OreConfiguration
-				.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), DimensionsModBlocks.MOUKI_ORE.get().defaultBlockState())), 8));
+		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:mouki_ore", FEATURE,
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), DimensionsModBlocks.MOUKI_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), DimensionsModBlocks.MOUKI_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), DimensionsModBlocks.MOUKI_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), DimensionsModBlocks.MOUKI_ORE.get().defaultBlockState())), 8));
 		PLACED_FEATURE = PlacementUtils.register("dimensions:mouki_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(13), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(77)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(13), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(77)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

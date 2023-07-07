@@ -28,19 +28,17 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DimensionsModItems.DIMENSION_1_IGNITER
-				.get()) {
-			if ((entity.level.dimension()) == (Level.OVERWORLD) && entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DimensionsModItems.DIMENSION_1_IGNITER.get()) {
+			if ((entity.level.dimension()) == Level.OVERWORLD && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY,
-								new ResourceLocation("dimensions:dimension_1"));
+						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1"));
 						if (_player.level.dimension() == destinationType)
 							return;
 						ServerLevel nextLevel = _player.server.getLevel(destinationType);
@@ -57,21 +55,19 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.DIMENSION_1_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
-			} else if ((entity.level.dimension()) == (Level.NETHER) && entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+			} else if ((entity.level.dimension()) == Level.NETHER && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY,
-								new ResourceLocation("dimensions:dimension_1"));
+						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1"));
 						if (_player.level.dimension() == destinationType)
 							return;
 						ServerLevel nextLevel = _player.server.getLevel(destinationType);
@@ -88,24 +84,21 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.DIMENSION_1_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(
-							Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), (true));
+					_player.displayClientMessage(Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), true);
 			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getItem() == DimensionsModItems.OVERWORLD_IGNITER.get()) {
-			if ((entity.level.dimension()) == (Level.NETHER) && entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DimensionsModItems.OVERWORLD_IGNITER.get()) {
+			if ((entity.level.dimension()) == Level.NETHER && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 						ResourceKey<Level> destinationType = Level.OVERWORLD;
@@ -125,18 +118,16 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.OVERWORLD_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
-			} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1")))
-					&& entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+			} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1"))) && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 						ResourceKey<Level> destinationType = Level.OVERWORLD;
@@ -156,24 +147,21 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.OVERWORLD_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(
-							Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), (true));
+					_player.displayClientMessage(Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), true);
 			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getItem() == DimensionsModItems.NETHER_IGNITER.get()) {
-			if ((entity.level.dimension()) == (Level.OVERWORLD) && entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DimensionsModItems.NETHER_IGNITER.get()) {
+			if ((entity.level.dimension()) == Level.OVERWORLD && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 						ResourceKey<Level> destinationType = Level.NETHER;
@@ -193,18 +181,16 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.NETHER_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
-			} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1")))
-					&& entity.canChangeDimensions()) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, (false), (false)));
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, (false), (false)));
+			} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimensions:dimension_1"))) && entity.canChangeDimensions()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 75, 1, false, false));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 75, 1, false, false));
 				DimensionsMod.queueServerWork(75, () -> {
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 						ResourceKey<Level> destinationType = Level.NETHER;
@@ -224,19 +210,16 @@ public class TeleportBlockOnBlockRightClickedProcedure {
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(DimensionsModItems.NETHER_IGNITER.get());
-						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-								_player.inventoryMenu.getCraftSlots());
+						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 					}
 				});
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(
-							Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), (true));
+					_player.displayClientMessage(Component.literal((Component.translatable("translation.key.teleportblock_alreadyinerror").getString())), true);
 			}
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal((Component.translatable("translation.key.teleportblock_noportalerror").getString())),
-						(true));
+				_player.displayClientMessage(Component.literal((Component.translatable("translation.key.teleportblock_noportalerror").getString())), true);
 		}
 	}
 }

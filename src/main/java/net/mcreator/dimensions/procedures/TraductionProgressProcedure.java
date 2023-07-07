@@ -9,6 +9,6 @@ public class TraductionProgressProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(Component.literal((Component.translatable("translation.key.translationtext").getString())), (false));
+			_player.displayClientMessage(Component.literal((Component.translatable("translation.key.translationtext").getString())), false);
 	}
 }

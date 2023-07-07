@@ -86,7 +86,6 @@ public class TeleportBlockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		TeleportBlockOnBlockRightClickedProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
 	}

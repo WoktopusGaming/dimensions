@@ -10,9 +10,7 @@ credits="EleckFan5935, Minecraft Forge and MCreator Mod Maker made or helped mak
 displayURL="https://mcreator.net"
 updateJSONURL="https://raw.githubusercontent.com/WoktopusGaming/dimensions/main/update.json"
 authors="EleckFan5935"
-description='''
-Adds brand new dimensions and blocks to Minecraft
-'''
+description="Adds brand new dimensions and blocks to Minecraft"
 
 [[dependencies.dimensions]]
     modId="minecraft"

@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class MoukiStairsBlock extends StairBlock {
 	public MoukiStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).dynamicShape());
 	}
 
 	@Override

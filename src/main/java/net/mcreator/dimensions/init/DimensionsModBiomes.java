@@ -62,17 +62,19 @@ public class DimensionsModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					parameters.add(new Pair<>(MoukiBiomeBiome.PARAMETER_POINT,
-							biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, MOUKI_BIOME.getId()))));
-					parameters.add(new Pair<>(BlastedBiomeBiome.PARAMETER_POINT,
-							biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
-					parameters.add(new Pair<>(BlastedBiomeBiome.PARAMETER_POINT_UNDERGROUND,
-							biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
+					for (Climate.ParameterPoint parameterPoint : MoukiBiomeBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, MOUKI_BIOME.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : BlastedBiomeBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : BlastedBiomeBiome.UNDERGROUND_PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
+					}
 
 					chunkGenerator.biomeSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.featuresPerStep = Suppliers
-							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()),
-									biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
+							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
 				}
 				// Inject surface rules
 				if (chunkGenerator instanceof NoiseBasedChunkGenerator noiseGenerator) {
@@ -80,24 +82,15 @@ public class DimensionsModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1,
-								anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()),
-										DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
-										Blocks.COARSE_DIRT.defaultBlockState()));
-						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, MOUKI_BIOME.getId()),
-										Blocks.WARPED_NYLIUM.defaultBlockState(), Blocks.ROOTED_DIRT.defaultBlockState(),
-										Blocks.DEEPSLATE_COAL_ORE.defaultBlockState()));
-						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()),
-										DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
-										Blocks.COARSE_DIRT.defaultBlockState()));
-						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
-								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
-								SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(),
-								noiseGeneratorSettings.seaLevel(), noiseGeneratorSettings.disableMobGeneration(),
-								noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(),
-								noiseGeneratorSettings.useLegacyRandomSource());
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()), DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
+								Blocks.COARSE_DIRT.defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, MOUKI_BIOME.getId()), Blocks.WARPED_NYLIUM.defaultBlockState(), Blocks.ROOTED_DIRT.defaultBlockState(),
+								Blocks.DEEPSLATE_COAL_ORE.defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()), DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
+								Blocks.COARSE_DIRT.defaultBlockState()));
+						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
+								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
+								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
 						noiseGenerator.settings = new Holder.Direct<>(moddedNoiseGeneratorSettings);
 					}
 				}
@@ -108,12 +101,12 @@ public class DimensionsModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					parameters.add(new Pair<>(BlastedBiomeBiome.PARAMETER_POINT,
-							biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
+					for (Climate.ParameterPoint parameterPoint : BlastedBiomeBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()))));
+					}
 					chunkGenerator.biomeSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.featuresPerStep = Suppliers
-							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()),
-									biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
+							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
 				}
 				// Inject surface rules
 				if (chunkGenerator instanceof NoiseBasedChunkGenerator noiseGenerator) {
@@ -121,16 +114,11 @@ public class DimensionsModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(2,
-								anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()),
-										DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
-										Blocks.COARSE_DIRT.defaultBlockState()));
-						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
-								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
-								SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(),
-								noiseGeneratorSettings.seaLevel(), noiseGeneratorSettings.disableMobGeneration(),
-								noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(),
-								noiseGeneratorSettings.useLegacyRandomSource());
+						surfaceRules.add(2, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLASTED_BIOME.getId()), DimensionsModBlocks.GRASS_1.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
+								Blocks.COARSE_DIRT.defaultBlockState()));
+						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
+								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
+								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
 						noiseGenerator.settings = new Holder.Direct<>(moddedNoiseGeneratorSettings);
 					}
 				}
@@ -138,27 +126,20 @@ public class DimensionsModBiomes {
 		}
 	}
 
-	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
-			BlockState underwaterBlock) {
-		return SurfaceRules
-				.ifTrue(SurfaceRules.isBiome(biomeKey),
-						SurfaceRules
-								.ifTrue(SurfaceRules.abovePreliminarySurface(),
-										SurfaceRules.sequence(
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-														SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0),
-																SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR),
-														SurfaceRules.state(undergroundBlock)))));
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
 	}
 
-	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
-			BlockState underwaterBlock) {
+	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
 		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
 				SurfaceRules.sequence(
 						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)),
-										SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
 						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))));
 	}
 }

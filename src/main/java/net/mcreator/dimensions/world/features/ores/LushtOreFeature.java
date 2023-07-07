@@ -34,16 +34,14 @@ public class LushtOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new LushtOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("dimensions:lusht_ore", FEATURE,
-				new OreConfiguration(List.of(
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()),
-								DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHER_QUARTZ_ORE.defaultBlockState()),
-								DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHER_GOLD_ORE.defaultBlockState()),
-								DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState())),
-						2));
-		PLACED_FEATURE = PlacementUtils.register("dimensions:lusht_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(4), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(24), VerticalAnchor.absolute(48)), BiomeFilter.biome()));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHER_QUARTZ_ORE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHER_GOLD_ORE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), DimensionsModBlocks.LUSHT_ORE.get().defaultBlockState())), 2));
+		PLACED_FEATURE = PlacementUtils.register("dimensions:lusht_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(24), VerticalAnchor.absolute(48)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

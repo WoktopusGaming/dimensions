@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class FlamewoodPlanksBlock extends Block {
 	public FlamewoodPlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 7.224674055842077f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 7.2246740558f));
 	}
 
 	@Override

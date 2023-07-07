@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "multipack_mod:bluewood_log"
+      "item": "dimensions:bluewood_log"
     },
     "1": {
-      "item": "multipack_mod:bluewood_log"
+      "item": "dimensions:bluewood_log"
     },
     "2": {
-      "item": "multipack_mod:bluewood_log"
+      "item": "dimensions:bluewood_log"
     },
     "3": {
-      "item": "multipack_mod:bluewood_log"
+      "item": "dimensions:bluewood_log"
     }
   },
   "result": {
-    "item": "multipack_mod:bluewood_wood",
+    "item": "dimensions:bluewood_wood",
     "count": 3
   }
 }

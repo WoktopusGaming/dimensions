@@ -7,26 +7,26 @@
   ],
   "key": {
     "0": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "3": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "4": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "6": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "7": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     },
     "8": {
-      "item": "multipack_mod:bluewood_planks"
+      "item": "dimensions:bluewood_planks"
     }
   },
   "result": {
-    "item": "multipack_mod:bluewood_stairs",
+    "item": "dimensions:bluewood_stairs",
     "count": 4
   }
 }

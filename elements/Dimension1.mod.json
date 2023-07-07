@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -38,6 +38,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
+    "enableIgniter": true,
     "igniterName": "Dimension 1 Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"

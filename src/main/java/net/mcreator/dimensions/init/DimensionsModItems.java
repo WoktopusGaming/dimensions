@@ -53,8 +53,7 @@ public class DimensionsModItems {
 	public static final RegistryObject<Item> LUSHT_SHOVEL = REGISTRY.register("lusht_shovel", () -> new LushtShovelItem());
 	public static final RegistryObject<Item> LUSHT_HOE = REGISTRY.register("lusht_hoe", () -> new LushtHoeItem());
 	public static final RegistryObject<Item> LUSHT_ARMOR_HELMET = REGISTRY.register("lusht_armor_helmet", () -> new LushtArmorItem.Helmet());
-	public static final RegistryObject<Item> LUSHT_ARMOR_CHESTPLATE = REGISTRY.register("lusht_armor_chestplate",
-			() -> new LushtArmorItem.Chestplate());
+	public static final RegistryObject<Item> LUSHT_ARMOR_CHESTPLATE = REGISTRY.register("lusht_armor_chestplate", () -> new LushtArmorItem.Chestplate());
 	public static final RegistryObject<Item> LUSHT_ARMOR_LEGGINGS = REGISTRY.register("lusht_armor_leggings", () -> new LushtArmorItem.Leggings());
 	public static final RegistryObject<Item> LUSHT_ARMOR_BOOTS = REGISTRY.register("lusht_armor_boots", () -> new LushtArmorItem.Boots());
 	public static final RegistryObject<Item> RANDOM_ORES = block(DimensionsModBlocks.RANDOM_ORES, DimensionsModTabs.TAB_DIMENSIONS_ORES);
@@ -68,8 +67,7 @@ public class DimensionsModItems {
 	public static final RegistryObject<Item> MOUKI_FENCE_GATE = block(DimensionsModBlocks.MOUKI_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOUKI_PRESSURE_PLATE = block(DimensionsModBlocks.MOUKI_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOUKI_BUTTON = block(DimensionsModBlocks.MOUKI_BUTTON, DimensionsModTabs.TAB_DIMENSIONS_ORES);
-	public static final RegistryObject<Item> PACKED_EMERALD_PICKAXE = REGISTRY.register("packed_emerald_pickaxe",
-			() -> new Packed_EmeraldPickaxeItem());
+	public static final RegistryObject<Item> PACKED_EMERALD_PICKAXE = REGISTRY.register("packed_emerald_pickaxe", () -> new Packed_EmeraldPickaxeItem());
 	public static final RegistryObject<Item> PACKED_EMERALD_AXE = REGISTRY.register("packed_emerald_axe", () -> new Packed_EmeraldAxeItem());
 	public static final RegistryObject<Item> PACKED_EMERALD_SWORD = REGISTRY.register("packed_emerald_sword", () -> new Packed_EmeraldSwordItem());
 	public static final RegistryObject<Item> PACKED_EMERALD_SHOVEL = REGISTRY.register("packed_emerald_shovel", () -> new Packed_EmeraldShovelItem());
@@ -84,16 +82,12 @@ public class DimensionsModItems {
 	public static final RegistryObject<Item> MOUKI_SHOVEL = REGISTRY.register("mouki_shovel", () -> new MoukiShovelItem());
 	public static final RegistryObject<Item> MOUKI_HOE = REGISTRY.register("mouki_hoe", () -> new MoukiHoeItem());
 	public static final RegistryObject<Item> MOUKI_ARMOR_HELMET = REGISTRY.register("mouki_armor_helmet", () -> new MoukiArmorItem.Helmet());
-	public static final RegistryObject<Item> MOUKI_ARMOR_CHESTPLATE = REGISTRY.register("mouki_armor_chestplate",
-			() -> new MoukiArmorItem.Chestplate());
+	public static final RegistryObject<Item> MOUKI_ARMOR_CHESTPLATE = REGISTRY.register("mouki_armor_chestplate", () -> new MoukiArmorItem.Chestplate());
 	public static final RegistryObject<Item> MOUKI_ARMOR_LEGGINGS = REGISTRY.register("mouki_armor_leggings", () -> new MoukiArmorItem.Leggings());
 	public static final RegistryObject<Item> MOUKI_ARMOR_BOOTS = REGISTRY.register("mouki_armor_boots", () -> new MoukiArmorItem.Boots());
-	public static final RegistryObject<Item> EMERARMOR_ARMOR_HELMET = REGISTRY.register("emerarmor_armor_helmet",
-			() -> new EmerarmorArmorItem.Helmet());
-	public static final RegistryObject<Item> EMERARMOR_ARMOR_CHESTPLATE = REGISTRY.register("emerarmor_armor_chestplate",
-			() -> new EmerarmorArmorItem.Chestplate());
-	public static final RegistryObject<Item> EMERARMOR_ARMOR_LEGGINGS = REGISTRY.register("emerarmor_armor_leggings",
-			() -> new EmerarmorArmorItem.Leggings());
+	public static final RegistryObject<Item> EMERARMOR_ARMOR_HELMET = REGISTRY.register("emerarmor_armor_helmet", () -> new EmerarmorArmorItem.Helmet());
+	public static final RegistryObject<Item> EMERARMOR_ARMOR_CHESTPLATE = REGISTRY.register("emerarmor_armor_chestplate", () -> new EmerarmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> EMERARMOR_ARMOR_LEGGINGS = REGISTRY.register("emerarmor_armor_leggings", () -> new EmerarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> EMERARMOR_ARMOR_BOOTS = REGISTRY.register("emerarmor_armor_boots", () -> new EmerarmorArmorItem.Boots());
 	public static final RegistryObject<Item> BLUEWOOD_WOOD = block(DimensionsModBlocks.BLUEWOOD_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BLUEWOOD_LOG = block(DimensionsModBlocks.BLUEWOOD_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -103,8 +97,7 @@ public class DimensionsModItems {
 	public static final RegistryObject<Item> BLUEWOOD_SLAB = block(DimensionsModBlocks.BLUEWOOD_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BLUEWOOD_FENCE = block(DimensionsModBlocks.BLUEWOOD_FENCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BLUEWOOD_FENCE_GATE = block(DimensionsModBlocks.BLUEWOOD_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> BLUEWOOD_PRESSURE_PLATE = block(DimensionsModBlocks.BLUEWOOD_PRESSURE_PLATE,
-			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLUEWOOD_PRESSURE_PLATE = block(DimensionsModBlocks.BLUEWOOD_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> BLUEWOOD_BUTTON = block(DimensionsModBlocks.BLUEWOOD_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TELEPORT_BLOCK = block(DimensionsModBlocks.TELEPORT_BLOCK, DimensionsModTabs.TAB_DIMENSIONS_ORES);
 	public static final RegistryObject<Item> DIMENSION_1_IGNITER = REGISTRY.register("dimension_1_igniter", () -> new Dimension1IgniterItem());
@@ -118,13 +111,11 @@ public class DimensionsModItems {
 	public static final RegistryObject<Item> FLAMEWOOD_SLAB = block(DimensionsModBlocks.FLAMEWOOD_SLAB, DimensionsModTabs.TAB_DIMENSIONS_ORES);
 	public static final RegistryObject<Item> FLAMEWOOD_FENCE = block(DimensionsModBlocks.FLAMEWOOD_FENCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> FLAMEWOOD_FENCE_GATE = block(DimensionsModBlocks.FLAMEWOOD_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> FLAMEWOOD_PRESSURE_PLATE = block(DimensionsModBlocks.FLAMEWOOD_PRESSURE_PLATE,
-			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> FLAMEWOOD_PRESSURE_PLATE = block(DimensionsModBlocks.FLAMEWOOD_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> FLAMEWOOD_BUTTON = block(DimensionsModBlocks.FLAMEWOOD_BUTTON, DimensionsModTabs.TAB_DIMENSIONS_ORES);
 	public static final RegistryObject<Item> HEARTOF_NETHER = REGISTRY.register("heartof_nether", () -> new HeartofNetherItem());
 	public static final RegistryObject<Item> HEARTOF_OVERWORLD = REGISTRY.register("heartof_overworld", () -> new HeartofOverworldItem());
-	public static final RegistryObject<Item> HEARTOF_FIRST_DIMENSION = REGISTRY.register("heartof_first_dimension",
-			() -> new HeartofFirstDimensionItem());
+	public static final RegistryObject<Item> HEARTOF_FIRST_DIMENSION = REGISTRY.register("heartof_first_dimension", () -> new HeartofFirstDimensionItem());
 	public static final RegistryObject<Item> BROKEN_PORTAL_FRAME = REGISTRY.register("broken_portal_frame", () -> new BrokenPortalFrameItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

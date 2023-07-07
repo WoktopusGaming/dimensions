@@ -58,7 +58,6 @@ public class TranslationProgressMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		DimensionsMod.addNetworkMessage(TranslationProgressMessage.class, TranslationProgressMessage::buffer, TranslationProgressMessage::new,
-				TranslationProgressMessage::handler);
+		DimensionsMod.addNetworkMessage(TranslationProgressMessage.class, TranslationProgressMessage::buffer, TranslationProgressMessage::new, TranslationProgressMessage::handler);
 	}
 }

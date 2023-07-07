@@ -7,6 +7,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/lusht_dust.json",
+          "src/main/java/net/mcreator/dimensions/item/LushtDustItem.java"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -16,6 +22,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/lusht_ore.json",
+          "src/main/java/net/mcreator/dimensions/world/features/ores/LushtOreFeature.java",
+          "src/main/resources/data/dimensions/forge/biome_modifier/lusht_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/dimensions/block/LushtOreBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/lusht_ore.json",
+          "src/main/resources/assets/dimensions/models/item/lusht_ore.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -25,6 +41,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/LushtBlockBlock.java",
+          "src/main/resources/assets/dimensions/models/item/lusht_block.json",
+          "src/main/resources/assets/dimensions/models/block/lusht_block.json",
+          "src/main/resources/assets/dimensions/blockstates/lusht_block.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -34,6 +58,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_ore_block_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -43,6 +72,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_block_ore_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -52,6 +86,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_ore_smelting.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -61,6 +100,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/LushtPickaxeItem.java",
+          "src/main/resources/assets/dimensions/models/item/lusht_pickaxe.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -70,6 +115,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/lusht_axe.json",
+          "src/main/java/net/mcreator/dimensions/item/LushtAxeItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -79,6 +130,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/LushtSwordItem.java",
+          "src/main/resources/assets/dimensions/models/item/lusht_sword.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -88,6 +145,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/lusht_shovel.json",
+          "src/main/java/net/mcreator/dimensions/item/LushtShovelItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -97,6 +160,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/lusht_hoe.json",
+          "src/main/java/net/mcreator/dimensions/item/LushtHoeItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -106,6 +175,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_pickaxe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -115,6 +189,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_axe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -124,6 +203,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_sword_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -133,6 +217,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_shovel_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -142,6 +231,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_hoe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -155,7 +249,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/lusht_armor_chestplate.json",
+          "src/main/resources/assets/dimensions/models/item/lusht_armor_leggings.json",
+          "src/main/java/net/mcreator/dimensions/item/LushtArmorItem.java",
+          "src/main/resources/assets/dimensions/models/item/lusht_armor_helmet.json",
+          "src/main/resources/assets/dimensions/models/item/lusht_armor_boots.json"
+        ]
       },
       "path": "~/Tools"
     },
@@ -166,6 +267,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_armor_helmet_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -175,6 +281,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_armor_body_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -184,6 +295,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_armor_leggings_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -193,6 +309,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/lusht_armor_boots_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -202,6 +323,9 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensions_ores",
+      "metadata": {
+        "files": []
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -211,6 +335,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "random_ores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/loot_tables/blocks/random_ores.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -220,6 +349,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "random_ores",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/world/features/ores/RandomLootOresFeature.java",
+          "src/main/java/net/mcreator/dimensions/block/RandomLootOresBlock.java",
+          "src/main/resources/assets/dimensions/models/item/random_ores.json",
+          "src/main/resources/assets/dimensions/models/block/random_ores.json",
+          "src/main/resources/data/dimensions/forge/biome_modifier/random_ores_biome_modifier.json",
+          "src/main/resources/assets/dimensions/blockstates/random_ores.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -229,6 +368,9 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusht_trade",
+      "metadata": {
+        "files": []
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -239,6 +381,9 @@
       "locked_code": false,
       "registry_name": "traduction_progress",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/procedures/TraductionProgressProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -255,6 +400,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "translation_progress",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/network/TranslationProgressMessage.java"
+        ]
+      },
       "path": "~/Procedures"
     },
     {
@@ -264,6 +414,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/mouki_wood.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_wood.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiWoodBlock.java",
+          "src/main/resources/assets/dimensions/models/block/mouki_wood.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -273,6 +431,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_log.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_log.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiLogBlock.java",
+          "src/main/resources/assets/dimensions/models/block/mouki_log.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -282,6 +448,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/mouki_planks.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_planks.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_planks.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiPlanksBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -291,6 +465,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/MoukiLeavesBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/mouki_leaves.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_leaves.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_leaves.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -300,6 +482,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_stairs.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_stairs_outer.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_stairs.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_stairs.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiStairsBlock.java",
+          "src/main/resources/assets/dimensions/models/block/mouki_stairs_inner.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -309,6 +501,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/mouki_slab_top.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_slab_full.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiSlabBlock.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_slab.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_slab.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_slab.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -318,6 +520,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/mouki_fence.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_fence.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_post.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiFenceBlock.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_fence.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_inventory.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -327,6 +539,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/mouki_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_gate.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiFenceGateBlock.java",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_gate_wall.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_gate_wall_open.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_fence_gate_open.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_fence_gate.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -336,6 +559,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/mouki_pressure_plate.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_pressure_plate.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiPressurePlateBlock.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_pressure_plate.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_pressure_plate_down.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -345,6 +577,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/mouki_button.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_button_pressed.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiButtonBlock.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_button.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_button_inventory.json",
+          "src/main/resources/assets/dimensions/blockstates/mouki_button.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -354,6 +596,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/mouki_log.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -363,6 +610,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_wood_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -372,6 +624,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_planks_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -381,6 +638,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_stairs_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -390,6 +652,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_slab_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -399,6 +666,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_fence_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -408,6 +680,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_fence_gate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -417,6 +694,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_pressure_plate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -426,6 +708,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_button_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -435,6 +722,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_stick_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -444,6 +736,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/MoukiBiomeTrunkDecorator.java",
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/MoukiBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/MoukiBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/dimensions/world/biome/MoukiBiomeBiome.java"
+        ]
+      },
       "path": "~/Biomes"
     },
     {
@@ -453,6 +753,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/Packed_EmeraldPickaxeItem.java",
+          "src/main/resources/assets/dimensions/models/item/packed_emerald_pickaxe.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -462,6 +768,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/packed_emerald_axe.json",
+          "src/main/java/net/mcreator/dimensions/item/Packed_EmeraldAxeItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -471,6 +783,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/Packed_EmeraldSwordItem.java",
+          "src/main/resources/assets/dimensions/models/item/packed_emerald_sword.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -480,6 +798,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/Packed_EmeraldShovelItem.java",
+          "src/main/resources/assets/dimensions/models/item/packed_emerald_shovel.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -489,6 +813,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/Packed_EmeraldHoeItem.java",
+          "src/main/resources/assets/dimensions/models/item/packed_emerald_hoe.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -498,6 +828,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/packed_emerald_pickaxe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -507,6 +842,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/packed_emerald_axe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -516,6 +856,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/packed_emerald_sword_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -525,6 +870,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/packed_emerald_shovel_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -534,6 +884,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_emerald_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/packed_emerald_hoe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -543,6 +898,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/world/features/ores/Grass1Feature.java",
+          "src/main/resources/data/dimensions/forge/biome_modifier/grass_1_biome_modifier.json",
+          "src/main/resources/assets/dimensions/models/block/grass_1.json",
+          "src/main/java/net/mcreator/dimensions/block/Grass1Block.java",
+          "src/main/resources/assets/dimensions/blockstates/grass_1.json",
+          "src/main/resources/assets/dimensions/models/item/grass_1.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -552,6 +917,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blasted_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/BlastedBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/dimensions/world/biome/BlastedBiomeBiome.java",
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/BlastedBiomeTrunkDecorator.java",
+          "src/main/java/net/mcreator/dimensions/world/features/treedecorators/BlastedBiomeLeaveDecorator.java"
+        ]
+      },
       "path": "~/Biomes"
     },
     {
@@ -561,6 +934,9 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensions_tools",
+      "metadata": {
+        "files": []
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -570,6 +946,9 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensions_materials",
+      "metadata": {
+        "files": []
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -579,6 +958,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/MoukiIngotItem.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_ingot.json"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -588,6 +973,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/mouki_ore.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_ore.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiOreBlock.java",
+          "src/main/java/net/mcreator/dimensions/world/features/ores/MoukiOreFeature.java",
+          "src/main/resources/data/dimensions/forge/biome_modifier/mouki_ore_biome_modifier.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_ore.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -597,6 +992,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/mouki_block.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_block.json",
+          "src/main/resources/assets/dimensions/models/block/mouki_block.json",
+          "src/main/java/net/mcreator/dimensions/block/MoukiBlockBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -606,6 +1009,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_ore_block_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -615,6 +1023,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_block_ore_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -624,6 +1037,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_ore_smelting.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -633,6 +1051,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/MoukiPickaxeItem.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_pickaxe.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -642,6 +1066,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_axe.json",
+          "src/main/java/net/mcreator/dimensions/item/MoukiAxeItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -651,6 +1081,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/MoukiSwordItem.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_sword.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -660,6 +1096,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_shovel.json",
+          "src/main/java/net/mcreator/dimensions/item/MoukiShovelItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -669,6 +1111,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_hoe.json",
+          "src/main/java/net/mcreator/dimensions/item/MoukiHoeItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -678,6 +1126,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_pickaxe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -687,6 +1140,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_axe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -696,6 +1154,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_sword_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -705,6 +1168,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_shovel_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -714,6 +1182,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_hoe_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -727,7 +1200,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/mouki_armor_boots.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_armor_leggings.json",
+          "src/main/resources/assets/dimensions/models/item/mouki_armor_chestplate.json",
+          "src/main/java/net/mcreator/dimensions/item/MoukiArmorItem.java",
+          "src/main/resources/assets/dimensions/models/item/mouki_armor_helmet.json"
+        ]
       },
       "path": "~/Tools"
     },
@@ -738,6 +1218,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_armor_helmet_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -747,6 +1232,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_armor_body_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -756,6 +1246,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_armor_leggings_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -765,6 +1260,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/mouki_armor_boots_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -778,7 +1278,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/emerarmor_armor_leggings.json",
+          "src/main/java/net/mcreator/dimensions/item/EmerarmorArmorItem.java",
+          "src/main/resources/assets/dimensions/models/item/emerarmor_armor_chestplate.json",
+          "src/main/resources/assets/dimensions/models/item/emerarmor_armor_helmet.json",
+          "src/main/resources/assets/dimensions/models/item/emerarmor_armor_boots.json"
+        ]
       },
       "path": "~/Tools"
     },
@@ -789,6 +1296,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/emerarmor_armor_helmet_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -798,6 +1310,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerarmor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/emerarmor_armor_body_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -807,6 +1324,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/emerarmor_armor_leggings_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -816,6 +1338,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/emerarmor_armor_boots_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -825,6 +1352,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/bluewood_wood.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_wood.json",
+          "src/main/resources/assets/dimensions/models/item/bluewood_wood.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodWoodBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -834,6 +1369,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/bluewood_log.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_log.json",
+          "src/main/resources/assets/dimensions/models/item/bluewood_log.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodLogBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -843,6 +1386,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/BluewoodPlanksBlock.java",
+          "src/main/resources/assets/dimensions/models/item/bluewood_planks.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_planks.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_planks.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -852,6 +1403,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/bluewood_leaves.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodLeavesBlock.java",
+          "src/main/resources/assets/dimensions/models/item/bluewood_leaves.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_leaves.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -861,6 +1420,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/bluewood_stairs_outer.json",
+          "src/main/resources/assets/dimensions/models/item/bluewood_stairs.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_stairs.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodStairsBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_stairs.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_stairs_inner.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -870,6 +1439,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/bluewood_slab.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodSlabBlock.java",
+          "src/main/resources/assets/dimensions/models/block/bluewood_slab.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_slab_full.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_slab.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_slab_top.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -879,6 +1458,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_inventory.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_fence.json",
+          "src/main/resources/assets/dimensions/models/item/bluewood_fence.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodFenceBlock.java",
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_post.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -888,6 +1477,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_gate_open.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_gate_wall.json",
+          "src/main/resources/assets/dimensions/models/item/bluewood_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_gate_wall_open.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_fence_gate.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodFenceGateBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -897,6 +1497,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/bluewood_pressure_plate.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_pressure_plate.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodPressurePlateBlock.java",
+          "src/main/resources/assets/dimensions/models/block/bluewood_pressure_plate.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_pressure_plate_down.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -906,6 +1515,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/bluewood_button.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_button.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_button_pressed.json",
+          "src/main/resources/assets/dimensions/models/block/bluewood_button_inventory.json",
+          "src/main/resources/assets/dimensions/blockstates/bluewood_button.json",
+          "src/main/java/net/mcreator/dimensions/block/BluewoodButtonBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -915,6 +1534,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/bluewood_log.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -924,6 +1548,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_wood_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -933,6 +1562,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_planks_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -942,6 +1576,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_stairs_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -951,6 +1590,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_slab_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -960,6 +1604,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_fence_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -969,6 +1618,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_fence_gate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -978,6 +1632,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_pressure_plate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -987,6 +1646,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_button_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -996,6 +1660,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bluewood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/bluewood_stick_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1005,6 +1674,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "teleport_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/teleport_block.json",
+          "src/main/java/net/mcreator/dimensions/block/TeleportBlockBlock.java",
+          "src/main/resources/assets/dimensions/models/item/teleport_block.json",
+          "src/main/resources/assets/dimensions/models/block/teleport_block.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1015,7 +1692,12 @@
       "locked_code": false,
       "registry_name": "dimension_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/dimensions/dimension_type/dimension_1.json",
+          "src/main/java/net/mcreator/dimensions/world/dimension/Dimension1Dimension.java",
+          "src/main/resources/data/dimensions/dimension/dimension_1.json"
+        ]
       },
       "path": "~/Dimensions"
     },
@@ -1026,6 +1708,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimension_1_igniter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/Dimension1IgniterItem.java",
+          "src/main/resources/assets/dimensions/models/item/dimension_1_igniter.json"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -1035,6 +1723,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "translation_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/command/TranslationCommandCommand.java"
+        ]
+      },
       "path": "~/Procedures"
     },
     {
@@ -1044,6 +1737,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "overworld_igniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/overworld_igniter.json",
+          "src/main/java/net/mcreator/dimensions/item/OverworldIgniterItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -1054,6 +1753,9 @@
       "locked_code": false,
       "registry_name": "teleport_block_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/procedures/TeleportBlockOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1074,6 +1776,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_igniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/nether_igniter.json",
+          "src/main/java/net/mcreator/dimensions/item/NetherIgniterItem.java"
+        ]
+      },
       "path": "~/Tools"
     },
     {
@@ -1083,6 +1791,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/flamewood_wood.json",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_wood.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_wood.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodWoodBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1092,6 +1808,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/flamewood_log.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_log.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodLogBlock.java",
+          "src/main/resources/assets/dimensions/models/block/flamewood_log.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1101,6 +1825,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodPlanksBlock.java",
+          "src/main/resources/assets/dimensions/models/item/flamewood_planks.json",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_planks.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_planks.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1110,6 +1842,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/item/flamewood_leaves.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodLeavesBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_leaves.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_leaves.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1119,6 +1859,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/flamewood_stairs.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_stairs_inner.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_stairs_outer.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_stairs.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodStairsBlock.java",
+          "src/main/resources/assets/dimensions/models/block/flamewood_stairs.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1128,6 +1878,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/blockstates/flamewood_slab.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_slab_top.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_slab.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_slab_full.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_slab.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodSlabBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1137,6 +1897,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodFenceBlock.java",
+          "src/main/resources/assets/dimensions/models/item/flamewood_fence.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence.json",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_fence.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_inventory.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_post.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1146,6 +1916,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_gate_open.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_gate_wall.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodFenceGateBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_fence_gate.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_fence_gate_wall_open.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1155,6 +1936,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodPressurePlateBlock.java",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_pressure_plate.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_pressure_plate.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_pressure_plate_down.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_pressure_plate.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1164,6 +1954,16 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dimensions/models/block/flamewood_button_inventory.json",
+          "src/main/resources/assets/dimensions/models/item/flamewood_button.json",
+          "src/main/resources/assets/dimensions/blockstates/flamewood_button.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_button.json",
+          "src/main/resources/assets/dimensions/models/block/flamewood_button_pressed.json",
+          "src/main/java/net/mcreator/dimensions/block/FlamewoodButtonBlock.java"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1173,6 +1973,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/flamewood_log.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1182,6 +1987,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_wood_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1191,6 +2001,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_planks_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1200,6 +2015,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_stairs_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1209,6 +2029,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_slab_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1218,6 +2043,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_fence_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1227,6 +2057,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_fence_gate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1236,6 +2071,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_pressure_plate_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1245,6 +2085,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_button_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1254,6 +2099,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamewood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/flamewood_stick_recipe.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1263,6 +2113,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "heartof_nether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/HeartofNetherItem.java",
+          "src/main/resources/assets/dimensions/models/item/heartof_nether.json"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -1272,6 +2128,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "heartof_overworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/HeartofOverworldItem.java",
+          "src/main/resources/assets/dimensions/models/item/heartof_overworld.json"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -1281,6 +2143,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "heartof_first_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/HeartofFirstDimensionItem.java",
+          "src/main/resources/assets/dimensions/models/item/heartof_first_dimension.json"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -1290,6 +2158,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "broken_portal_frame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/item/BrokenPortalFrameItem.java",
+          "src/main/resources/assets/dimensions/models/item/broken_portal_frame.json"
+        ]
+      },
       "path": "~/Materials"
     },
     {
@@ -1299,6 +2173,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "overworld_portal_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/overworld_portal_frame.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1308,6 +2187,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_portal_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/nether_portal_frame.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1317,6 +2201,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fd_portal_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/fd_portal_frame.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1326,6 +2215,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "teleporter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/teleporter.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1335,6 +2229,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_portal_frame_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/nether_portal_frame_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1344,6 +2243,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouki_biome_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/mouki_biome_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1353,6 +2257,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blasted_biome_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/blasted_biome_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1362,6 +2271,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fd_enter_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/fd_enter_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1371,6 +2285,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fd_portal_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/fd_portal_item.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1380,6 +2299,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fd_new_portal_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/fd_new_portal_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1389,6 +2313,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nt_portal_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/nt_portal_item.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1398,6 +2327,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nt_new_portal_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/nt_new_portal_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1407,6 +2341,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nt_enter_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/nt_enter_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1416,6 +2355,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ow_portal_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/ow_portal_item.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1425,6 +2369,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ow_new_portal_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/ow_new_portal_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1434,6 +2383,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ow_enter_ach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/advancements/ow_enter_ach.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     },
     {
@@ -1443,6 +2397,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1452,6 +2411,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1461,6 +2425,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1470,6 +2439,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
       "path": "~/Blocks"
     },
     {
@@ -1479,6 +2453,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "teleporter_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dimensions/recipes/teleporter_smithing.json"
+        ]
+      },
       "path": "~/Recipes"
     },
     {
@@ -1488,6 +2467,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "teleporter_spawn_structure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dimensions/world/features/TeleporterSpawnStructureFeature.java",
+          "src/main/resources/data/dimensions/forge/biome_modifier/teleporter_spawn_structure_biome_modifier.json"
+        ]
+      },
       "path": "~/Trades and Tabs"
     }
   ],
@@ -1510,11 +2495,10 @@
       "item.dimensions.dimension_1_igniter": "Portail de La Première Dimension",
       "advancements.fd_enter_ach.descr": "Enter the First Dimension",
       "block.dimensions.bluewood_stairs": "Escaliers en boisbleu",
-      "item.dimensions.packed_emerald_sword": "Épée en émeraude",
       "block.dimensions.teleport_block": "Téléporteur Interdimensionnel",
+      "item.dimensions.packed_emerald_sword": "Épée en émeraude",
       "item.dimensions.broken_portal_frame": "Cadre de portail cassé",
       "advancements.blasted_biome_ach.descr": "Entrer le biome Bizzare",
-      "item.dimensions.dimension_1": "La Première Dimension",
       "item.dimensions.packed_emerald_shovel": "Pelle en émeraude",
       "item.dimensions.lusht_armor_boots": "Bottes de lusht",
       "item.dimensions.mouki_armor_chestplate": "Mouki Chestplate",
@@ -1532,8 +2516,8 @@
       "block.dimensions.mouki_log": "Tronc mouki",
       "block.dimensions.mouki_wood": "Bois mouki",
       "advancements.nt_portal_item.descr": "Get a Heart of First Dimension",
-      "advancements.ow_portal_item.descr": "Get a Heart of Nether",
       "item.dimensions.heartof_first_dimension": "Cœur de La Première Dimension",
+      "advancements.ow_portal_item.descr": "Get a Heart of Nether",
       "item.dimensions.lusht_shovel": "Pelle en lusht",
       "item.dimensions.mouki_hoe": "Mouki Hoe",
       "advancements.nt_portal_item.title": "The Core of a New Dawn",
@@ -1542,8 +2526,8 @@
       "item.dimensions.lusht_armor_helmet": "Casque en lusht",
       "advancements.nt_enter_ach.descr": "Enter the First Dimension",
       "advancements.nether_portal_frame_ach.title": "Miniaturised Portal Frame?",
-      "item.dimensions.lusht_hoe": "Houe en lusht",
       "item.dimensions.emerarmor_armor_leggings": "Emerarmor Leggings",
+      "item.dimensions.lusht_hoe": "Houe en lusht",
       "advancements.ow_new_portal_ach.descr": "Get the Nether Portal Frame item",
       "item.dimensions.mouki_ingot": "Lingot mouki",
       "advancements.blasted_biome_ach.title": "La nature a été injectée",
@@ -1619,11 +2603,10 @@
       "item.dimensions.dimension_1_igniter": "First Dimension Portal Frame",
       "advancements.fd_enter_ach.descr": "Enter the First Dimension",
       "block.dimensions.bluewood_stairs": "Bluewood Stairs",
-      "item.dimensions.packed_emerald_sword": "Emerald Sword",
       "block.dimensions.teleport_block": "Teleport Block",
+      "item.dimensions.packed_emerald_sword": "Emerald Sword",
       "item.dimensions.broken_portal_frame": "Broken Portal Frame",
       "advancements.blasted_biome_ach.descr": "Enter the Blasted Biome",
-      "item.dimensions.dimension_1": "Dimension 1 Portal Igniter",
       "item.dimensions.packed_emerald_shovel": "Emerald Shovel",
       "item.dimensions.lusht_armor_boots": "Lusht Boots",
       "item.dimensions.mouki_armor_chestplate": "Mouki Chestplate",
@@ -1641,8 +2624,8 @@
       "block.dimensions.mouki_log": "Mouki Log",
       "block.dimensions.mouki_wood": "Mouki Wood",
       "advancements.nt_portal_item.descr": "Get a Heart of Nether",
-      "advancements.ow_portal_item.descr": "Get a Heart of Overworld",
       "item.dimensions.heartof_first_dimension": "Heart of First Dimension",
+      "advancements.ow_portal_item.descr": "Get a Heart of Overworld",
       "item.dimensions.lusht_shovel": "Lusht Shovel",
       "item.dimensions.mouki_hoe": "Mouki Hoe",
       "advancements.nt_portal_item.title": "Cores and Hearts",
@@ -1651,8 +2634,8 @@
       "item.dimensions.lusht_armor_helmet": "Lusht Helmet",
       "advancements.nt_enter_ach.descr": "Enter the Nether using the Teleporter",
       "advancements.nether_portal_frame_ach.title": "Miniaturised Portal Frame?",
-      "item.dimensions.lusht_hoe": "Lusht Hoe",
       "item.dimensions.emerarmor_armor_leggings": "Emerarmor Leggings",
+      "item.dimensions.lusht_hoe": "Lusht Hoe",
       "advancements.ow_new_portal_ach.descr": "Get the Overworld Portal Frame item",
       "item.dimensions.mouki_ingot": "Mouki",
       "advancements.blasted_biome_ach.title": "Someone did inject the nature",
@@ -1770,5 +2753,5 @@
     "modElementsPackage": "net.mcreator.dimensions",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300224119
 }
